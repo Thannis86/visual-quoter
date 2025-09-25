@@ -1,0 +1,14 @@
+#quote-box {
+  display: grid;
+  grid-template-columns: 800px;
+  grid-template-rows: 800px;
+}
+
+.test_img {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.testBox {
+  width: 100px;
+  height: 100px;
+}
