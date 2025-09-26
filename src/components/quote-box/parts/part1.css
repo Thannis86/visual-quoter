@@ -1,0 +1,14 @@
+#part1-box {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px solid red;
+}
+
+.test-box {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+}

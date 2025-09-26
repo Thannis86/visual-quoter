@@ -1,8 +1,3 @@
-.test-box {
-  width: 100px;
-  height: 100px;
-}
-
 .test-box-image {
   width: 80px;
   height: 80px;
@@ -10,19 +5,24 @@
 
 #visual-box {
   display: grid;
-  width: 200px;
-  height: 200px;
-  grid-template-columns: 50px 100px 50px;
-  grid-template-rows: 50px 100px 50px;
+  width: 800px;
+  height: 800px;
+  grid-template-columns: 200px 400px 200px;
+  grid-template-rows: 200px 400px 200px;
   border: 2px solid red;
 }
 
 #test-image {
   grid-area: 2 / 2 / 3 / 3;
-  height: 100px;
-  width: 100px;
+  height: 350px;
+  width: 350px;
 }
 
 #test-amount {
   grid-area: 1 / 2 / 2 / 3;
+}
+
+#parts-box {
+  display: flex;
+  flex-direction: row;
 }
