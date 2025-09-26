@@ -1,11 +1,11 @@
-import redBody from "../../../images/test-parts/body/Red.png";
-import blackBody from "../../../images/test-parts/body/Blue.png";
-import goldBody from "../../../images/test-parts/body/Green.png";
-import greyBody from "../../../images/test-parts/body/Brown.png";
+import redBody from "../../../images/test-parts/tips/Black.png";
+import blackBody from "../../../images/test-parts/tips/Gold.png";
+import goldBody from "../../../images/test-parts/tips/Red.png";
+import greyBody from "../../../images/test-parts/tips/Grey.png";
 
 import "./part1.css";
 
-export default function Part1({ setCurrentItem }) {
+export default function Part2({ setCurrentItem }) {
   const test = [
     { src: redBody, amount: 7 },
     { src: blackBody, amount: 2 },
@@ -21,8 +21,7 @@ export default function Part1({ setCurrentItem }) {
     <div id="part1-box">
       {test.map((item, index) => (
         <div
-          // onClick={() => newImage(index)}
-          // style={{ backgroundColor: item.color }}
+          //   onClick={() => newImage(index)}
           className="test-box"
         >
           <img
